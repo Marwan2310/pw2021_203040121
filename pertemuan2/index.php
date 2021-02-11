@@ -1,4 +1,4 @@
-<? 
+<?php 
 /*
 Marwan Hakim
 203040121
@@ -58,5 +58,5 @@ Mempelajari mengenai sintanks PHP
 
 // Logika
 // &&, ||, ! 
-$x = 30;
-var_dump($x < 20 || $x % 2 == 0);
+// $x = 30;
+// var_dump($x < 20 || $x % 2 == 0);
