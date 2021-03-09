@@ -1,4 +1,12 @@
-
+<?php 
+/*
+Marwan Hakim
+203040121
+https://github.com/Marwan2310/pw2021_203040121
+Pertemuan 7 - 9 Maret 2021
+Mempelajari mengenai GET & POST
+*/
+?>
 
 <!DOCTYPE html>
 <html lang="en">
