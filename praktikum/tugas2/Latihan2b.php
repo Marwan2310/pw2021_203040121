@@ -37,6 +37,12 @@ function soal($style="style1"){
 }
     echo soal("style1")
 ?>
-    
+
 </body>
 </html>
+
+
+
+
+
+
