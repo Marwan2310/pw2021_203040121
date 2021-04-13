@@ -3,7 +3,7 @@
 Nama    :Marwan Hakim
 NRP     :203040121
 Shift   :Jumat 13.00
-Tugas   : Tugas 4 Praktikum Pemrograman Web
+Tugas   : Tugas 5 Praktikum Pemrograman Web
 */
 ?>
 
@@ -24,7 +24,7 @@ $gitar = query("SELECT * FROM gitar")
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Latihan4c</title>
+  <title>Latihan5b</title>
 </head>
 <body>
   <div class="container">

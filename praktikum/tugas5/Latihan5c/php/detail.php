@@ -12,11 +12,11 @@ Tugas   : Tugas 4 Praktikum Pemrograman Web
 // jika tidak maka akan dikembalikan ke halaman index.php
 
 if (!isset($_GET['id'])) {
-    header("Location: ../index.php");
+    header("Location:index.php");
     exit;
 }
 
-require 'php/functions.php';
+require 'functions.php';
 
 // mengambil id dari url 
 $id = $_GET['id'];
@@ -32,13 +32,14 @@ $gtr = query("SELECT * FROM gitar WHERE id = $id ")[0];
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan4c</title>
+    <title>Latihan5c</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="foto">
-            <img src="assets/img/<?= $gtr["gambar"] ?>"alt="" width="100">
+        <td><?="<img src='../assets/img/$gtr[gambar]' width='70' height='90' />";?></td>
+            
         </div>
         <div class="keterangan">
             <p><?= $gtr["merek"];  ?></p>
