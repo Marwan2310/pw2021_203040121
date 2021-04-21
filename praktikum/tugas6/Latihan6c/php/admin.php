@@ -3,10 +3,18 @@
 Nama    :Marwan Hakim
 NRP     :203040121
 Shift   :Jumat 13.00
-Tugas   : Tugas 5 Praktikum Pemrograman Web
+Tugas   : Tugas 6 Praktikum Pemrograman Web
 */
 ?>
 <?php 
+session_start();
+if (!isset($_SESSION["username"])) {
+    header("Location: login.php");
+    exit;
+    
+}
+
+
 // menghubungkan dengan file php lainnya
 require 'functions.php';
 
@@ -43,7 +51,7 @@ function rupiah($angka){
         }
        
     </style>
-    <title>Latihan5e</title>
+    <title>Latihan6c</title>
     
 </head>
 <body>

@@ -3,7 +3,7 @@
 Nama    :Marwan Hakim
 NRP     :203040121
 Shift   :Jumat 13.00
-Tugas   : Tugas 5 Praktikum Pemrograman Web
+Tugas   : Tugas 6 Praktikum Pemrograman Web
 */
 ?>
 <?php 
@@ -43,7 +43,7 @@ function rupiah($angka){
         }
        
     </style>
-    <title>Latihan5e</title>
+    <title>Latihan6a</title>
     
 </head>
 <body>
