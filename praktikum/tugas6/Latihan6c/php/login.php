@@ -107,13 +107,11 @@ if (isset($_POST['submit'])) {
 			<label for="remember">Remember me</label>
 		</div>
 		<button type="submit" name="submit">Login</button>
-
-		<div class="registrasi">
-		<p>Belum punya akun ? Registrasi <a href="registrasi.php">Disini
-	</div>
-
-
 	</form>
+
+	<div class="registrasi">
+		<p>Belum punya akun ? Registrasi <a href="registrasi.php">Disini</a><
+	</div>
 
 
 </body>

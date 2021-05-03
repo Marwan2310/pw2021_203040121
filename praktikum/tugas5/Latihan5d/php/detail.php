@@ -49,7 +49,8 @@ $gtr = query("SELECT * FROM gitar WHERE id = $id ")[0];
             <p><?= $gtr["kategori"]; ?></p>
             
         </div>
-        <button class="tombol-kembali"><a href="index.php">Kembali</a></button>
+        <button class="tombol-kembali"><a href="../index.php">Kembali</a></button>
+         <button class="tambah"><a href="tambah.php">Tambah Data</a></button>
     </div>
 </body>
 </html>

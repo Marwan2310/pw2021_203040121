@@ -10,7 +10,7 @@ Tugas   : Tugas 6 Praktikum Pemrograman Web
 <?php
 require 'functions.php';
 
-	if ( isset($_POST["register"])) {
+	if (isset($_POST['register'])) {
 		
 		if (registrasi($_POST) > 0) {
 			 echo "<script>

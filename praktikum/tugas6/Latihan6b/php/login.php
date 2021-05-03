@@ -80,6 +80,11 @@ if (isset($_POST['submit'])) {
 
 	</form>
 
+	<div class="registrasi">
+		<p>Belum punya akun ? Registrasi <a href="registrasi.php">Disini</a></p>
+	</div>
+
+
 
 </body>
 </html>

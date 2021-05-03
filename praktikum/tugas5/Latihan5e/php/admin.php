@@ -10,16 +10,18 @@ Tugas   : Tugas 5 Praktikum Pemrograman Web
 // menghubungkan dengan file php lainnya
 require 'functions.php';
 
+if (isset($_GET['cari'])) {
+    $keyword =($_GET["keyword"]);
+    $gitar = query("SELECT * FROM gitar WHERE 
+             merek LIKE '%keyword%' OR
+             nama LIKE '%keyword%' OR
+             harga LIKE '%keyword%' OR
+             kategori LIKE '%keyword%' ");
 
-// melakukan query
-$gitar = query("SELECT * FROM gitar");
+} else {
 
-
-if (isset($_POST["cari"])) {
-    $gitar = cari($_POST["keyword"]);
+        $gitar = query("SELECT * FROM gitar");
 }
-
-
 
 function rupiah($angka){
     return "Rp " . number_format($angka);
@@ -94,7 +96,7 @@ function rupiah($angka){
             <td><?= $i;  ?></td>
             <td>
                 <a href="ubah.php?id=<?= $gtr["id"];?>"><button>Ubah</button></a>
-                <a href="hapus.php?id=<?= $gtr["id"];?>" onclick="return confirm('Hapus Data??')"><button>Hapus</button></a>
+                <a href="hapus.php?id=<? $gtr['id'] ?>" onclick="return confirm('Hapus Data??')"><button>Hapus</button></a>
             </td>
             <td><?="<img src='../assets/img/$gtr[gambar]' width='70' height='90' />";?></td>
             <td><?=  $gtr["merek"]; ?></td>

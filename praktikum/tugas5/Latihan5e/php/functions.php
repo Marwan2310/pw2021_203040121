@@ -104,15 +104,5 @@ function ubah($data)
 }
 
 
-function cari($keyword) {
-    $query = "SELECT * FROM gitar
-            WHERE
-            nama LIKE '%$keyword%' OR
-            merek LIKE '%$keyword%' OR
-            harga LIKE '%$keyword%' OR
-            kategori LIKE '%$keyword%'
-    
-    ";
 
-    return query($query);
-}
+

@@ -68,7 +68,6 @@ function hapus ($id)
 {
     $conn = koneksi();
     mysqli_query($conn, "DELETE FROM gitar WHERE id = $id");
-
     return mysqli_affected_rows($conn);
 }
 

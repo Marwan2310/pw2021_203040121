@@ -66,7 +66,7 @@ if (isset($_POST["tambah"])) {
         <br>
         <button type="submit" name="tambah"> Tambah Barang!</button>
         <button type="submit">
-            <a href="index.php" style="text-decoration: none; color; black;">Kembali</a>
+            <a href="../index.php" style="text-decoration: none; color; black;">Kembali</a>
         </button>
 
 

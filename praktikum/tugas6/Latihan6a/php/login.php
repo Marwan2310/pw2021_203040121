@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
 		}
 
 		
-		header("location: ../index.php");
+		header("location: admin.php");
 		die;
 	}
 	$error = true;

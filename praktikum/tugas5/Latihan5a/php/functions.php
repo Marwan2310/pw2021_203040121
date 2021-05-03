@@ -12,7 +12,7 @@ Tugas   : Tugas 5 Praktikum Pemrograman Web
 function koneksi() 
 {
     $conn = mysqli_connect("localhost", "root", "" );
-    mysqli_select_db( $conn, "pw_tubes_203040121");
+    mysqli_select_db($conn, "pw_tubes_203040121");
     
 
     return $conn;

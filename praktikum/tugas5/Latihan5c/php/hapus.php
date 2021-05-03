@@ -7,24 +7,22 @@ Tugas   : Tugas 5 Praktikum Pemrograman Web
 */
 ?>
 <?php 
-
 require 'functions.php';
 
-$id = $_GET["id"];
+// jika tidak ada id 
+$id = $_GET['id'];
 
-if( hapus($id) > 0) {
-    echo "<script>
-    alert('Barang Berhasil dihapus!');
-    document.location.href = 'admin.php';
-</script>";
+if (hapus($id) > 0) {
+	echo "<script>
+		alert('Data berhasil dihapus!');
+		document.location.href = 'admin.php';
+	</script>";
 } else {
+	echo "<script>
+	alert('Data Gagal dihapus!');
+	document.location.href = 'admin.php';
 
-    echo "<script>
-    alert('Barang Berhasil dihapus!');
-    document.location.href = 'admin.php';
-</script>";   
+	</script>";
 }
-
-
 
 ?>

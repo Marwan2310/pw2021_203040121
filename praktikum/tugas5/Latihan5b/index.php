@@ -30,7 +30,7 @@ $gitar = query("SELECT * FROM gitar")
   <div class="container">
       <?php foreach ($gitar as $gtr) : ?>
         <p class="nama">
-          <a href="detail.php?id=<?= $gtr['id'] ?>">
+          <a href="php/detail.php?id=<?= $gtr['id'] ?>">
               <?= $gtr["nama"] ?>
 
           </a>

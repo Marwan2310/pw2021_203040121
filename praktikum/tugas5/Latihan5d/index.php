@@ -37,5 +37,11 @@ $gitar = query("SELECT * FROM gitar")
         </p>
     <?php endforeach;  ?>
   </div>  
+
+  <button>
+    
+    <a href=" php/admin.php">DISINI KUY</a>
+
+  </button>
 </body>
 </html>

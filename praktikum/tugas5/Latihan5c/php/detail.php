@@ -12,7 +12,7 @@ Tugas   : Tugas 4 Praktikum Pemrograman Web
 // jika tidak maka akan dikembalikan ke halaman index.php
 
 if (!isset($_GET['id'])) {
-    header("Location:index.php");
+    header("Location: ../index.php");
     exit;
 }
 
@@ -49,7 +49,8 @@ $gtr = query("SELECT * FROM gitar WHERE id = $id ")[0];
             <p><?= $gtr["kategori"]; ?></p>
             
         </div>
-        <button class="tombol-kembali"><a href="index.php">Kembali</a></button>
+        <button class="tombol-kembali"><a href=" ../index.php">Kembali</a></button>
+         <button class="tambah"><a href="tambah.php">Tambah Data</a></button>
     </div>
 </body>
 </html>

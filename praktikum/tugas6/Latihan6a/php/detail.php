@@ -49,7 +49,7 @@ $gtr = query("SELECT * FROM gitar WHERE id = $id ")[0];
     <div class="col s12 m7">
       <div class="card">
         <div class="card-image">
-        <td><?="<img src='../assets/img/$gtr[gambar]' width='40' height='400' />";?></td>
+        <td><?="<img src='../assets/img/$gtr[gambar]' width='40'/>";?></td>
           <span class="card-title">List</span>
         </div>
         <div class="card-content">

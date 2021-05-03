@@ -16,7 +16,7 @@ if (!isset($_GET['id'])) {
     exit;
 }
 
-require 'php/functions.php';
+require 'functions.php';
 
 // mengambil id dari url 
 $id = $_GET['id'];
@@ -38,7 +38,7 @@ $gtr = query("SELECT * FROM gitar WHERE id = $id ")[0];
 <body>
     <div class="container">
         <div class="foto">
-            <img src="assets/img/<?= $gtr["gambar"] ?>"alt="" width="100">
+          <td><?="<img src='../assets/img/$gtr[gambar]' width='70' height='90' />";?></td>
         </div>
         <div class="keterangan">
             <p><?= $gtr["merek"];  ?></p>
@@ -48,7 +48,7 @@ $gtr = query("SELECT * FROM gitar WHERE id = $id ")[0];
             <p><?= $gtr["kategori"]; ?></p>
             
         </div>
-        <button class="tombol-kembali"><a href="index.php">Kembali</a></button>
+        <button class="tombol-kembali"><a href=" ../index.php">Kembali</a></button>
     </div>
 </body>
 </html>

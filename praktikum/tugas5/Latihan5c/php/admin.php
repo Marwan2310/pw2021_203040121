@@ -44,7 +44,7 @@ function rupiah($angka){
        
       
         <button><a href="tambah.php">Tambah Data</a></button>
-        <button><a href="hapus.php?id=<? $gtr['id']?>" onclick="return confirm('Hapus Data??')">Hapus</a></button>
+       
         
         
            
@@ -68,7 +68,7 @@ function rupiah($angka){
             <td><?= $i;  ?></td>
             <td>
                 <a href=""><button>Ubah</button></a>
-                <a href=""><button>Hapus</button></a>
+                <a href="hapus.php?id=<? $gtr['id']?>" onclick="return confirm('Hapus Data??')">Hapus</a>
             </td>
             <td><?="<img src='../assets/img/$gtr[gambar]' width='70' height='90' />";?></td>
             <td><?=  $gtr["merek"]; ?></td>
