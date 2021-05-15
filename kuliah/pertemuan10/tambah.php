@@ -1,4 +1,14 @@
 <?php 
+/*
+Marwan Hakim
+203040121
+https://github.com/Marwan2310/pw2021_203040121
+Pertemuan 10
+*/
+?>
+
+
+<?php 
 require 'functions.php';
 
 // cek apakah tomboh tambah sudah ditekan 

@@ -1,12 +1,15 @@
-?php 
+<?php 
 /*
 Marwan Hakim
 203040121
 https://github.com/Marwan2310/pw2021_203040121
 Pertemuan 10
-
-*
+*/
 ?>
+
+
+
+
 <?php 
 // koneksi ke database
 $conn = mysqli_connect('localhost','root','','pw_203040121');
